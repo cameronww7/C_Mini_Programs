@@ -88,6 +88,10 @@ int main(int argc, char * argv[]) {
 	printf("\n------------------------------------------------------------------\n");
 	SortInputString();
 
+	printf("\n\n                  Calling StructPractice Function");
+	printf("\n------------------------------------------------------------------\n");
+	StructPractice();
+
 
 	return EXIT_SUCCESS;
 }

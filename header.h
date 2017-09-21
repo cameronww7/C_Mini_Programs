@@ -29,5 +29,6 @@ void StaticVariablePractice(int myArray[]);
 void PrintPassedInArray(int myArray[]);
 void PrintFirst5Primes(void);
 void SortInputString(void);
+void StructPractice(void);
 
 #endif /* HEADER_H_ */

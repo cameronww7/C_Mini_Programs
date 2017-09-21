@@ -23,6 +23,7 @@ void SortInputString(void) {
 
 	length = strlen(inputString);
 
+	//Bubble Sort XD
 	for(int outerIndex = 0; outerIndex < length; outerIndex++ ){
 		for(int innerIndex = outerIndex+1; innerIndex < length; innerIndex++ ){
 			if( inputString[outerIndex] > inputString[innerIndex]) {

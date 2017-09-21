@@ -17,6 +17,7 @@ C_SRCS += \
 ../Completed/SortInputString.c \
 ../Completed/StaticVariablePractice.c \
 ../Completed/StockPurchaseDecisionAdvisor.c \
+../Completed/StructPractice.c \
 ../Completed/TernaryOperator.c 
 
 OBJS += \
@@ -33,6 +34,7 @@ OBJS += \
 ./Completed/SortInputString.o \
 ./Completed/StaticVariablePractice.o \
 ./Completed/StockPurchaseDecisionAdvisor.o \
+./Completed/StructPractice.o \
 ./Completed/TernaryOperator.o 
 
 C_DEPS += \
@@ -49,6 +51,7 @@ C_DEPS += \
 ./Completed/SortInputString.d \
 ./Completed/StaticVariablePractice.d \
 ./Completed/StockPurchaseDecisionAdvisor.d \
+./Completed/StructPractice.d \
 ./Completed/TernaryOperator.d 
 
 
