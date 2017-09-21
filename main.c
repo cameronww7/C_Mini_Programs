@@ -8,7 +8,7 @@
 
 #define EXIT_SUCCESS 0;
 
-int main(void) {
+int main(int argc, char * argv[]) {
 
 	printf("\n                  Welcome to C Mini Progams");
 	printf("\n------------------------------------------------------------------\n");
@@ -52,6 +52,20 @@ int main(void) {
 	printf("\n                  Calling TernaryOperator");
 	printf("\n------------------------------------------------------------------\n");
 	TernaryOperator();
+
+	printf("\n                  Doing Argv Program");
+	printf("\n------------------------------------------------------------------\n");
+	//Below is a Simple usage and attempting to understand how one cause pass in
+	//information using argc and argv through these variables
+	argc = 2;
+	argv[1] = "ExampleFile.txt";
+
+	if( argc < 2 ) {
+		printf("Please specify a Filename");
+		return 1;
+	}
+
+	printf("I will examine file '%s'\n", argv[1]);
 
 	return EXIT_SUCCESS;
 }
