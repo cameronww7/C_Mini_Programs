@@ -71,5 +71,14 @@ int main(int argc, char * argv[]) {
 	printf("\n------------------------------------------------------------------\n");
 	InputIntOutputFloatTypeCast();
 
+	printf("\n                  Calling StaticVariablePractice Function");
+	printf("\n------------------------------------------------------------------\n");
+	int myArray[ARRAY_SIZE] = {0,0,0,0,0};
+	StaticVariablePractice(myArray);
+
+	printf("\n\n                  Calling StaticVariablePractice Function");
+	printf("\n------------------------------------------------------------------\n");
+	PrintPassedInArray(myArray);
+
 	return EXIT_SUCCESS;
 }

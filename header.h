@@ -10,6 +10,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+static const int STATIC_ARRAY_SIZE = 5;
+#define ARRAY_SIZE 5
+
 /*-----Function Declarations-----*/
 
 void HeightInCMToFeetAndInches(void);
@@ -23,5 +26,7 @@ void ConvertCompassBearingToDirection(void);
 void InputAndMultiplyDivide(void);
 void TernaryOperator(void);
 void InputIntOutputFloatTypeCast(void);
+void StaticVariablePractice(int myArray[]);
+void PrintPassedInArray(int myArray[]);
 
 #endif /* HEADER_H_ */

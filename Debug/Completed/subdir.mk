@@ -11,7 +11,9 @@ C_SRCS += \
 ../Completed/ImprovedBarChart.c \
 ../Completed/InputAndMultiplyDivide.c \
 ../Completed/InputIntOutputFloatTypeCast.c \
+../Completed/PrintPassedInArray.c \
 ../Completed/RecursionPrintRangeOfNumbers.c \
+../Completed/StaticVariablePractice.c \
 ../Completed/StockPurchaseDecisionAdvisor.c \
 ../Completed/TernaryOperator.c 
 
@@ -23,7 +25,9 @@ OBJS += \
 ./Completed/ImprovedBarChart.o \
 ./Completed/InputAndMultiplyDivide.o \
 ./Completed/InputIntOutputFloatTypeCast.o \
+./Completed/PrintPassedInArray.o \
 ./Completed/RecursionPrintRangeOfNumbers.o \
+./Completed/StaticVariablePractice.o \
 ./Completed/StockPurchaseDecisionAdvisor.o \
 ./Completed/TernaryOperator.o 
 
@@ -35,7 +39,9 @@ C_DEPS += \
 ./Completed/ImprovedBarChart.d \
 ./Completed/InputAndMultiplyDivide.d \
 ./Completed/InputIntOutputFloatTypeCast.d \
+./Completed/PrintPassedInArray.d \
 ./Completed/RecursionPrintRangeOfNumbers.d \
+./Completed/StaticVariablePractice.d \
 ./Completed/StockPurchaseDecisionAdvisor.d \
 ./Completed/TernaryOperator.d 
 
