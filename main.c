@@ -49,5 +49,9 @@ int main(void) {
 	printf("\n------------------------------------------------------------------\n");
 	InputAndMultiplyDivide();
 
+	printf("\n                  Calling TernaryOperator");
+	printf("\n------------------------------------------------------------------\n");
+	TernaryOperator();
+
 	return EXIT_SUCCESS;
 }

@@ -21,5 +21,6 @@ void ImprovedBarChart(void);
 void LoanCalculator(void);
 void ConvertCompassBearingToDirection(void);
 void InputAndMultiplyDivide(void);
+void TernaryOperator(void);
 
 #endif /* HEADER_H_ */

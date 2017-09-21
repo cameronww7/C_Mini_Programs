@@ -10,7 +10,8 @@ C_SRCS += \
 ../Completed/ImprovedBarChart.c \
 ../Completed/InputAndMultiplyDivide.c \
 ../Completed/RecursionPrintRangeOfNumbers.c \
-../Completed/StockPurchaseDecisionAdvisor.c 
+../Completed/StockPurchaseDecisionAdvisor.c \
+../Completed/TernaryOperator.c 
 
 OBJS += \
 ./Completed/BoilingAndFreezingOfFehKev.o \
@@ -19,7 +20,8 @@ OBJS += \
 ./Completed/ImprovedBarChart.o \
 ./Completed/InputAndMultiplyDivide.o \
 ./Completed/RecursionPrintRangeOfNumbers.o \
-./Completed/StockPurchaseDecisionAdvisor.o 
+./Completed/StockPurchaseDecisionAdvisor.o \
+./Completed/TernaryOperator.o 
 
 C_DEPS += \
 ./Completed/BoilingAndFreezingOfFehKev.d \
@@ -28,7 +30,8 @@ C_DEPS += \
 ./Completed/ImprovedBarChart.d \
 ./Completed/InputAndMultiplyDivide.d \
 ./Completed/RecursionPrintRangeOfNumbers.d \
-./Completed/StockPurchaseDecisionAdvisor.d 
+./Completed/StockPurchaseDecisionAdvisor.d \
+./Completed/TernaryOperator.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
