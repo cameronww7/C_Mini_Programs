@@ -10,14 +10,14 @@
 #include "../header.h"
 #include <math.h>
 
-void getDirection(void);
+void GetDirection(void);
 
 void ConvertCompassBearingToDirection(void) {
-	getDirection();
+	GetDirection();
 }
 
 //Function definition
-void getDirection(void){
+void GetDirection(void){
 	double direction = 180.8;
 
 	printf("> Enter a direction between 0.0¡ and 360.0¡: 180.8 (hard Coded)");
