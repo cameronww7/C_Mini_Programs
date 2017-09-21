@@ -45,5 +45,9 @@ int main(void) {
 	printf("\n------------------------------------------------------------------\n");
 	ConvertCompassBearingToDirection();
 
+	printf("\n                  Calling InputAndMultiplyDivide");
+	printf("\n------------------------------------------------------------------\n");
+	InputAndMultiplyDivide();
+
 	return EXIT_SUCCESS;
 }

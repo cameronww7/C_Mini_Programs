@@ -8,6 +8,7 @@ C_SRCS += \
 ../Completed/DisplayAPyramid.c \
 ../Completed/HeightInCMtoFeetAndInches.c \
 ../Completed/ImprovedBarChart.c \
+../Completed/InputAndMultiplyDivide.c \
 ../Completed/RecursionPrintRangeOfNumbers.c \
 ../Completed/StockPurchaseDecisionAdvisor.c 
 
@@ -16,6 +17,7 @@ OBJS += \
 ./Completed/DisplayAPyramid.o \
 ./Completed/HeightInCMtoFeetAndInches.o \
 ./Completed/ImprovedBarChart.o \
+./Completed/InputAndMultiplyDivide.o \
 ./Completed/RecursionPrintRangeOfNumbers.o \
 ./Completed/StockPurchaseDecisionAdvisor.o 
 
@@ -24,6 +26,7 @@ C_DEPS += \
 ./Completed/DisplayAPyramid.d \
 ./Completed/HeightInCMtoFeetAndInches.d \
 ./Completed/ImprovedBarChart.d \
+./Completed/InputAndMultiplyDivide.d \
 ./Completed/RecursionPrintRangeOfNumbers.d \
 ./Completed/StockPurchaseDecisionAdvisor.d 
 
