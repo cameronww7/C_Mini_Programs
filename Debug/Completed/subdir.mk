@@ -14,6 +14,7 @@ C_SRCS += \
 ../Completed/PrintFirst5Primes.c \
 ../Completed/PrintPassedInArray.c \
 ../Completed/RecursionPrintRangeOfNumbers.c \
+../Completed/SortArrayOfStructures.c \
 ../Completed/SortInputString.c \
 ../Completed/StaticVariablePractice.c \
 ../Completed/StockPurchaseDecisionAdvisor.c \
@@ -31,6 +32,7 @@ OBJS += \
 ./Completed/PrintFirst5Primes.o \
 ./Completed/PrintPassedInArray.o \
 ./Completed/RecursionPrintRangeOfNumbers.o \
+./Completed/SortArrayOfStructures.o \
 ./Completed/SortInputString.o \
 ./Completed/StaticVariablePractice.o \
 ./Completed/StockPurchaseDecisionAdvisor.o \
@@ -48,6 +50,7 @@ C_DEPS += \
 ./Completed/PrintFirst5Primes.d \
 ./Completed/PrintPassedInArray.d \
 ./Completed/RecursionPrintRangeOfNumbers.d \
+./Completed/SortArrayOfStructures.d \
 ./Completed/SortInputString.d \
 ./Completed/StaticVariablePractice.d \
 ./Completed/StockPurchaseDecisionAdvisor.d \

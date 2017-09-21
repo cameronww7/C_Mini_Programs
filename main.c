@@ -92,6 +92,10 @@ int main(int argc, char * argv[]) {
 	printf("\n------------------------------------------------------------------\n");
 	StructPractice();
 
+	printf("\n\n                  Calling SortArrayOfStructures Function");
+	printf("\n------------------------------------------------------------------\n");
+	SortArrayOfStructures();
+
 
 	return EXIT_SUCCESS;
 }
