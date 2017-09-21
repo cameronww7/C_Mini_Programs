@@ -10,10 +10,10 @@
 
 #include "../header.h"
 
-void printNumbersBetween( int xBig,
-						  int currentNum );
+void printNumbersBetween(int xBig,
+						 int currentNum);
 
-void RecursionPrintRangeOfNumbers( void ) {
+void RecursionPrintRangeOfNumbers(void) {
 
 //	printf("\n> Enter a small number: ");
 	int aSmallNum = 1;
@@ -26,14 +26,14 @@ void RecursionPrintRangeOfNumbers( void ) {
 	printf("> Enter a small number: 1\n");
 	printf("> Enter a bigger number: 5\n");
 
-	printNumbersBetween( aBiggerNum,aSmallNum );
+	printNumbersBetween(aBiggerNum,aSmallNum);
 }
 
-void printNumbersBetween( int xBig,
-						  int currentNum ) {
+void printNumbersBetween(int xBig,
+						 int currentNum) {
 	currentNum++;
 	if(currentNum < xBig) {
 		printf("\n> %d", currentNum);
-		printNumbersBetween( xBig, currentNum );
+		printNumbersBetween(xBig, currentNum);
 	}
 }

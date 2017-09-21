@@ -37,5 +37,13 @@ int main(void) {
 	printf("\n------------------------------------------------------------------\n");
 	ImprovedBarChart();
 
+	printf("\n                  Calling LoanCalculator");
+	printf("\n------------------------------------------------------------------\n");
+	LoanCalculator();
+
+	printf("\n                  Calling ConvertCompassBearingToDirection");
+	printf("\n------------------------------------------------------------------\n");
+	ConvertCompassBearingToDirection();
+
 	return EXIT_SUCCESS;
 }

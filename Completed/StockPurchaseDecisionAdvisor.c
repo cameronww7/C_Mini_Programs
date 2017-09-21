@@ -10,19 +10,19 @@
 
 #include "../header.h"
 
-#define SELL_PRICE_POINT  43.2
-#define BUY_PRICE_POINT   21.1
+#define SELL_PRICE_POINT 43.2
+#define BUY_PRICE_POINT  21.1
 
-double AskStockValue( void );
-void   MakeDecision( double xValue );
-void   HandleTransaction( char xAction );
+double AskStockValue(void);
+void   MakeDecision(double xValue);
+void   HandleTransaction(char xAction);
 
-void StockPurchaseDecisionAdvisor( void ) {
+void StockPurchaseDecisionAdvisor(void) {
 	double value = AskStockValue();
 	MakeDecision(value);
 }
 
-double AskStockValue( void ) {
+double AskStockValue(void) {
 //	printf("> What is Stock Value at? : ");
 	printf("> What is Stock Value at? : 25.5");
 	double value = 25.5;
@@ -31,7 +31,7 @@ double AskStockValue( void ) {
 	return value;
 }
 
-void MakeDecision( double xValue ) {
+void MakeDecision(double xValue) {
 	if(xValue >= SELL_PRICE_POINT) {
 		HandleTransaction('b');
 	} else {
@@ -43,7 +43,7 @@ void MakeDecision( double xValue ) {
 	}
 }
 
-void HandleTransaction( char xAction ){
+void HandleTransaction(char xAction){
 	switch(xAction) {
 		case 'b':
 			printf("\n> Buy");

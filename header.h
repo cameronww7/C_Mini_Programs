@@ -18,5 +18,7 @@ void RecursionPrintRangeOfNumbers(void);
 void StockPurchaseDecisionAdvisor(void);
 void DisplayAPyramid(void);
 void ImprovedBarChart(void);
+void LoanCalculator(void);
+void ConvertCompassBearingToDirection(void);
 
 #endif /* HEADER_H_ */

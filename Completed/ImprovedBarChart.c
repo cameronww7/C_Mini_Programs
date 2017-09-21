@@ -14,9 +14,7 @@
 
 void PrintSingleBar(int xHowManyBars);
 void PrintAllBars(int xDataSet[]);
-
 void GenerateDataSet(int xDataSet[]);
-
 
 void ImprovedBarChart( void ) {
 	int xDataSet[SIZE_OF_ARRAY];
@@ -43,6 +41,6 @@ void PrintAllBars(int xDataSet[]) {
 void GenerateDataSet(int xDataSet[]) {
 	srand(time(NULL));
 	for(int index = 0; index < SIZE_OF_ARRAY; index++){
-		xDataSet[index] = (rand()%50);
+		xDataSet[index] = (rand() % 50);
 	}
 }
