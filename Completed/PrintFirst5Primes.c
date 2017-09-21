@@ -19,6 +19,6 @@ void PrintFirst5Primes(void) {
 	int * array = primes();
 
 	for(int index = 0; index < ARRAY_SIZE_OF_5; index++) {
-		printf("\n> Prime %d: %d", index+1, array[index]);
+		printf("\n> Prime %d: %d", index + 1, array[index]);
 	}
 }

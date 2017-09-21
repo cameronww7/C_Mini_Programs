@@ -84,6 +84,9 @@ int main(int argc, char * argv[]) {
 	printf("\n------------------------------------------------------------------\n");
 	PrintFirst5Primes();
 
+	printf("\n\n                  Calling SortInputString Function");
+	printf("\n------------------------------------------------------------------\n");
+	SortInputString();
 
 
 	return EXIT_SUCCESS;

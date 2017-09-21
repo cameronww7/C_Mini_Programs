@@ -28,5 +28,6 @@ void InputIntOutputFloatTypeCast(void);
 void StaticVariablePractice(int myArray[]);
 void PrintPassedInArray(int myArray[]);
 void PrintFirst5Primes(void);
+void SortInputString(void);
 
 #endif /* HEADER_H_ */
