@@ -31,5 +31,6 @@ void PrintFirst5Primes(void);
 void SortInputString(void);
 void StructPractice(void);
 void SortArrayOfStructures(void);
+void PlusPlusAPointerInt(void);
 
 #endif /* HEADER_H_ */

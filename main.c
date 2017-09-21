@@ -96,6 +96,9 @@ int main(int argc, char * argv[]) {
 	printf("\n------------------------------------------------------------------\n");
 	SortArrayOfStructures();
 
+	printf("\n\n                  Calling PlusPlusAPointerInt Function");
+	printf("\n------------------------------------------------------------------\n");
+	PlusPlusAPointerInt();
 
 	return EXIT_SUCCESS;
 }

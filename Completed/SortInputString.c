@@ -25,7 +25,7 @@ void SortInputString(void) {
 
 	//Bubble Sort XD
 	for(int outerIndex = 0; outerIndex < length; outerIndex++ ){
-		for(int innerIndex = outerIndex+1; innerIndex < length; innerIndex++ ){
+		for(int innerIndex = outerIndex + 1; innerIndex < length; innerIndex++ ){
 			if( inputString[outerIndex] > inputString[innerIndex]) {
 				temp = inputString[innerIndex];
 				inputString[innerIndex] = inputString[outerIndex];
