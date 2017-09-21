@@ -73,12 +73,18 @@ int main(int argc, char * argv[]) {
 
 	printf("\n                  Calling StaticVariablePractice Function");
 	printf("\n------------------------------------------------------------------\n");
-	int myArray[ARRAY_SIZE] = {0,0,0,0,0};
+	int myArray[ARRAY_SIZE_OF_5] = {0,0,0,0,0};
 	StaticVariablePractice(myArray);
 
-	printf("\n\n                  Calling StaticVariablePractice Function");
+	printf("\n\n                  Calling PrintPassedInArray Function");
 	printf("\n------------------------------------------------------------------\n");
 	PrintPassedInArray(myArray);
+
+	printf("\n\n                  Calling PrintFirst5Primes Function");
+	printf("\n------------------------------------------------------------------\n");
+	PrintFirst5Primes();
+
+
 
 	return EXIT_SUCCESS;
 }

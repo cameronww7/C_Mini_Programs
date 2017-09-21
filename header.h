@@ -10,8 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-static const int STATIC_ARRAY_SIZE = 5;
-#define ARRAY_SIZE 5
+#define ARRAY_SIZE_OF_5 5
 
 /*-----Function Declarations-----*/
 
@@ -28,5 +27,6 @@ void TernaryOperator(void);
 void InputIntOutputFloatTypeCast(void);
 void StaticVariablePractice(int myArray[]);
 void PrintPassedInArray(int myArray[]);
+void PrintFirst5Primes(void);
 
 #endif /* HEADER_H_ */

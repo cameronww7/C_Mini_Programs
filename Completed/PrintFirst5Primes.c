@@ -1,7 +1,7 @@
 /*******************************************************************************
  * 		Cameron Walters
  * 						C Mini Programs
- *										StaticVariablePractice.c
+ *										PrintFirst5Primes.c
  * ---------------------------------------------------------------------------
  * Goal :
  *
@@ -9,18 +9,16 @@
 
 #include "../header.h"
 
-void StaticVariablePractice(int myArray[]) {
-	for(int index = 0; index < ARRAY_SIZE_OF_5; index++) {
-		printf("\n> Index %d: %d -- before population", index, myArray[index]);
-	}
+int * primes(void) {
+	static int STATIC_ARRAY[ARRAY_SIZE_OF_5] = {2,3,5,7,11};
 
-	myArray[0] = 2;
-	myArray[1] = 3;
-	myArray[2] = 5;
-	myArray[3] = 7;
-	myArray[4] = 11;
+	return STATIC_ARRAY;
+}
+
+void PrintFirst5Primes(void) {
+	int * array = primes();
 
 	for(int index = 0; index < ARRAY_SIZE_OF_5; index++) {
-		printf("\n> Index %d: %d -- After population", index, myArray[index]);
+		printf("\n> Prime %d: %d", index+1, array[index]);
 	}
 }

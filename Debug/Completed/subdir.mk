@@ -11,6 +11,7 @@ C_SRCS += \
 ../Completed/ImprovedBarChart.c \
 ../Completed/InputAndMultiplyDivide.c \
 ../Completed/InputIntOutputFloatTypeCast.c \
+../Completed/PrintFirst5Primes.c \
 ../Completed/PrintPassedInArray.c \
 ../Completed/RecursionPrintRangeOfNumbers.c \
 ../Completed/StaticVariablePractice.c \
@@ -25,6 +26,7 @@ OBJS += \
 ./Completed/ImprovedBarChart.o \
 ./Completed/InputAndMultiplyDivide.o \
 ./Completed/InputIntOutputFloatTypeCast.o \
+./Completed/PrintFirst5Primes.o \
 ./Completed/PrintPassedInArray.o \
 ./Completed/RecursionPrintRangeOfNumbers.o \
 ./Completed/StaticVariablePractice.o \
@@ -39,6 +41,7 @@ C_DEPS += \
 ./Completed/ImprovedBarChart.d \
 ./Completed/InputAndMultiplyDivide.d \
 ./Completed/InputIntOutputFloatTypeCast.d \
+./Completed/PrintFirst5Primes.d \
 ./Completed/PrintPassedInArray.d \
 ./Completed/RecursionPrintRangeOfNumbers.d \
 ./Completed/StaticVariablePractice.d \
